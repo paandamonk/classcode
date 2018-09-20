@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .navbar {
+            width: 100%;
+            list-style-type: none;
+            color: #FFF;
+            background-color: #55F;
+            margin: 0;
+        }
+        .navbar ul {
+            display: none;
+            margin: 0;
+            padding: 0;
+            width: 100px;
+            background-color: #111;
+            position: absolute;
+        }
+        .navbar li {
+            display: inline-block;
+            width: 100px;
+        }
+        .navbar li a {
+            display: block;
+            text-align: center;
+            color: white;
+        }
+        .navbar li a:hover {
+            background-color: #555;
+            display: block;
+        }
+        .navbar li:hover ul {
+            display: block;
+        }
+        </style>
+    </head>
+<body>
+
+    <ul class="navbar">
+        <li>
+            First
+            <ul>
+                <li>
+                    <a href="#"> Option1</a>
+                </li>
+                <li>
+                    <a href="#"> Option2</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Second
+            <ul>
+                <li>
+                    <a href="#"> Option3</a>
+                </li>
+                <li>
+                    <a href="#"> Option4</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
